@@ -1,0 +1,47 @@
+{
+	"name": "atcoder",
+	"dockerComposeFile": [
+		"../docker-compose.yml",
+		"../docker-compose.dev.yml"
+	],
+	"service": "app",
+	"workspaceFolder": "/workspace",
+	"settings": {
+		"files.insertFinalNewline": true,
+		"files.trimFinalNewlines": true,
+		"files.trimTrailingWhitespace": true,
+		"editor.tabSize": 4,
+		"files.eol": "\n",
+		// "python.linting.enabled": true,
+		// "python.linting.pylintEnabled": false,
+		// "python.linting.flake8Enabled": true,
+		// "python.linting.lintOnSave": true,
+		// "python.formatting.provider": "black",
+		// "python.formatting.blackArgs": [
+		// 	"--line-length",
+		// 	"79"
+		// ],
+		// "editor.formatOnSave": true,
+		// "editor.formatOnPaste": false,
+		// "editor.formatOnSaveMode": "file",
+		// "editor.codeActionsOnSave": {
+		// 	"source.organizeImports": true
+		// },
+		"code-runner.runInTerminal": true
+	},
+	"extensions": [
+		"ms-python.python",
+		"ms-python.vscode-pylance",
+		"streetsidesoftware.code-spell-checker",
+		"oderwat.indent-rainbow",
+		"ms-ceintl.vscode-language-pack-ja",
+		"christian-kohler.path-intellisense",
+		"ms-azuretools.vscode-docker",
+		"formulahendry.code-runner",
+		"njpwerner.autodocstring",
+		"kevinrose.vsc-python-indent",
+		"visualstudioexptteam.vscodeintellicode",
+		"42crunch.vscode-openapi",
+		"Gruntfuggly.todo-tree"
+	],
+}
